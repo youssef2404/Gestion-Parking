@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="$${FILENAME}">
+ <component
+   name="$${FILENAME}"
+   displayName="$${FILENAME}"
+   version="1.0"
+   description=""
+   tags=""
+   categories="" />
+ <parameter name="bonusData"><![CDATA[bonusData 
+{
+   element nios_inst
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+   }
+   element nios_inst_clk_bfm
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_0_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_1_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_2_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_3_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "11";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_4_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "5";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_5_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_6_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "7";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_7_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "9";
+         type = "int";
+      }
+   }
+   element nios_inst_pio_8_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "10";
+         type = "int";
+      }
+   }
+   element nios_inst_uart_0_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+   }
+}
+]]></parameter>
+ <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
+ <parameter name="device" value="EP4CE22E22C6" />
+ <parameter name="deviceFamily" value="Cyclone IV E" />
+ <parameter name="deviceSpeedGrade" value="6" />
+ <parameter name="fabricMode" value="QSYS" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="generationId" value="0" />
+ <parameter name="globalResetBus" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="projectName" value="" />
+ <parameter name="sopcBorderPoints" value="false" />
+ <parameter name="systemHash" value="0" />
+ <parameter name="timeStamp" value="0" />
+ <parameter name="useTestBenchNamingPattern" value="true" />
+ <instanceScript></instanceScript>
+ <module kind="nios" version="1.0" enabled="1" name="nios_inst">
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_UNIQUE_ID" value="nios" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
+  <parameter name="AUTO_DEVICE" value="EP4CE22E22C6" />
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="0" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="1" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="1" />
+ </module>
+ <module
+   kind="altera_avalon_clock_source"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_clk_bfm">
+  <parameter name="CLOCK_RATE" value="50000000" />
+  <parameter name="CLOCK_UNIT" value="1" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_0_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="1" />
+  <parameter name="SIGNAL_DIRECTIONS" value="output" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_1_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="1" />
+  <parameter name="SIGNAL_DIRECTIONS" value="output" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_2_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="1" />
+  <parameter name="SIGNAL_DIRECTIONS" value="output" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_4_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="8" />
+  <parameter name="SIGNAL_DIRECTIONS" value="input" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_5_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="1" />
+  <parameter name="SIGNAL_DIRECTIONS" value="input" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_6_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="1" />
+  <parameter name="SIGNAL_DIRECTIONS" value="input" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_uart_0_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="rxd,txd" />
+  <parameter name="SIGNAL_WIDTHS" value="1,1" />
+  <parameter name="SIGNAL_DIRECTIONS" value="output,input" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_7_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="8" />
+  <parameter name="SIGNAL_DIRECTIONS" value="output" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_8_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="8" />
+  <parameter name="SIGNAL_DIRECTIONS" value="input" />
+ </module>
+ <module
+   kind="altera_conduit_bfm"
+   version="13.1"
+   enabled="1"
+   name="nios_inst_pio_3_external_connection_bfm">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="1" />
+  <parameter name="SIGNAL_DIRECTIONS" value="output" />
+ </module>
+ <connection
+   kind="clock"
+   version="13.1"
+   start="nios_inst_clk_bfm.clk"
+   end="nios_inst.clk" />
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_0_external_connection_bfm.conduit"
+   end="nios_inst.pio_0_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_1_external_connection_bfm.conduit"
+   end="nios_inst.pio_1_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_2_external_connection_bfm.conduit"
+   end="nios_inst.pio_2_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_4_external_connection_bfm.conduit"
+   end="nios_inst.pio_4_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_5_external_connection_bfm.conduit"
+   end="nios_inst.pio_5_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_6_external_connection_bfm.conduit"
+   end="nios_inst.pio_6_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_uart_0_external_connection_bfm.conduit"
+   end="nios_inst.uart_0_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_7_external_connection_bfm.conduit"
+   end="nios_inst.pio_7_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_8_external_connection_bfm.conduit"
+   end="nios_inst.pio_8_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="13.1"
+   start="nios_inst_pio_3_external_connection_bfm.conduit"
+   end="nios_inst.pio_3_external_connection">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
+ <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
+ <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="false" />
+</system>

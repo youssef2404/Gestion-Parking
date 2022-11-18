@@ -1,0 +1,12 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MSI\Desktop\conception_project\software\parking\obj\default\runtime\sim\mentor
+Enios_mm_interconnect_0_nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo
+o-work nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo -O0
+Z1 tExplicit 1
+Z2 dC:\Users\MSI\Desktop\conception_project\software\parking\obj\default\runtime\sim\mentor
+!s108 1668617171.050000
+!s90 -reportprogress|300|C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/nios_mm_interconnect_0_nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vho|-work|nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo|
+!s107 C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/nios_mm_interconnect_0_nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vho|

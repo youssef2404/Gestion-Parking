@@ -1,0 +1,144 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do msim_setup.tcl 
+# nios_tb
+# ./../
+# C:/altera/13.1/quartus/
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# [exec] file_copy 
+# List Of Command Line Aliases 
+# 
+# file_copy                     -- Copy ROM/RAM files to simulation directory 
+# 
+# dev_com                       -- Compile device library files 
+# 
+# com                           -- Compile the design files in correct order 
+# 
+# elab                          -- Elaborate top level design 
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option 
+# 
+# ld                            -- Compile all the design files and elaborate the top level design 
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt 
+# 
+# 
+# 
+# List Of Variables 
+# 
+# TOP_LEVEL_NAME                -- Top level module name. 
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module. 
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory. 
+# 
+# QUARTUS_INSTALL_DIR           -- Quartus installation directory. 
+#  ld 
+# [exec] dev_com 
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nios_mm_interconnect_0_rsp_xbar_mux
+# -- Compiling architecture RTL of nios_mm_interconnect_0_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nios_mm_interconnect_0_rsp_xbar_demux
+# -- Compiling architecture RTL of nios_mm_interconnect_0_rsp_xbar_demux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity nios_mm_interconnect_0_cmd_xbar_mux
+# -- Compiling architecture RTL of nios_mm_interconnect_0_cmd_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nios_mm_interconnect_0_cmd_xbar_demux
+# -- Compiling architecture RTL of nios_mm_interconnect_0_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# ** Warning: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv(38): in protected region.
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nios_mm_interconnect_0_id_router
+# -- Compiling architecture RTL of nios_mm_interconnect_0_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nios_mm_interconnect_0_addr_router
+# -- Compiling architecture RTL of nios_mm_interconnect_0_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nios_mm_interconnect_0_nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Error: (vcom-7) Failed to open library file "C:/Users/MSI/Desktop/conception_project/software/parking/obj/default/runtime/sim/mentor/libraries/nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo/nios_mm_interconnect_0_nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo" in read/write/execute mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/nios_mm_interconnect_0_nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vho(46): VHDL Compiler exiting
+# C:/altera/13.1/modelsim_ase/win32aloem/vcom failed.
+#   

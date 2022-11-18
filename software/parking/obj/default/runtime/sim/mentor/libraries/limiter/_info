@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\MSI\Desktop\conception_project\software\parking\obj\default\runtime\sim\mentor
+vIUzYEztfIeeZkaiexbG/wo0UBo/tUfXd2vdVohRrzxk=
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 0
+!s100 n9khNm3Vm>hSZVk06C>zC1
+IhC6B>jMnm`jik`=HVf9MS3
+VzC;0]nBLKo0Q[zO07mJ[H0
+xsip
+!i8a 1010771344
+!s105 altera_avalon_st_pipeline_base_v_unit
+S1
+d.
+Z2 Fnofile
+L0 38
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1668695509.066000
+!s107 C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-sv|C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_avalon_st_pipeline_base.v|-work|limiter|
+!s101 -O0
+Z4 o-sv -work limiter -O0
+n6e0ca5
+vL9afLtHSLuKBwJ6/lpLZdLzSG4Q5tpdrJFhrmTrtmyA=
+R1
+I0LciFHd`W<_foI0]EUzX[2
+VoEc>J:hd0SScLUYCbiiNn2
+xsip
+S1
+d.
+R2
+L0 38
+R3
+r1
+31
+R4
+nfd29c52
+!i10b 0
+!s100 7WSHmdJf[^YN0m0R9]eUP1
+!i8a 1665941008
+!s105 altera_merlin_traffic_limiter_sv_unit
+!s85 0
+!s108 1668695508.679000
+!s107 C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|C:/Users/MSI/Desktop/conception_project/nios/testbench/nios_tb/simulation/submodules/mentor/altera_merlin_traffic_limiter.sv|-work|limiter|
+!s101 -O0
